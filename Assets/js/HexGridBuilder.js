@@ -48,9 +48,9 @@ HexGridBuilder.prototype.generate = function (scene) {
 		new BABYLON.StandardMaterial("BrownMaterial", scene)
 	];
 	
-	materials[0].diffuseTexture = new BABYLON.Texture("Assets/images/blue.png", scene);
-	materials[1].diffuseTexture = new BABYLON.Texture("Assets/images/green.png", scene);
-	materials[2].diffuseTexture = new BABYLON.Texture("Assets/images/brown.png", scene);
+	materials[0].diffuseTexture = new BABYLON.Texture("https://raw.githubusercontent.com/Servletparty/HexaGrid/master/Assets/images/blue.png", scene);
+	materials[1].diffuseTexture = new BABYLON.Texture("https://raw.githubusercontent.com/Servletparty/HexaGrid/master/Assets/images/green.png", scene);
+	materials[2].diffuseTexture = new BABYLON.Texture("https://raw.githubusercontent.com/Servletparty/HexaGrid/master/Assets/images/brown.png", scene);
 	//materials[0].diffuseColor = new BABYLON.Color3(50/255, 50/255, 120/255);
 	//materials[1].diffuseColor = new BABYLON.Color3(0, 1, 0);
 	//materials[2].diffuseColor = new BABYLON.Color3(0, 0, 1);

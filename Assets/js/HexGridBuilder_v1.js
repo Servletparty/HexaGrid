@@ -34,7 +34,7 @@ HexGridBuilder.prototype.generate = function (scene) {
 	var prefab = BABYLON.Mesh.CreateCylinder("hex", 1, 3, 3, 6, 1, scene, false);
 	prefab.rotation.y += Math.PI / 6;
 	prefab.material = new BABYLON.StandardMaterial("gridMat", scene);
-	prefab.material.diffuseTexture = new BABYLON.Texture("assets/images/blue.png", scene);
+	prefab.material.diffuseTexture = new BABYLON.Texture("https://raw.githubusercontent.com/Servletparty/HexaGrid/master/Assets/images/blue.png", scene);
 	
 	var boundingInfo = prefab.getBoundingInfo();
 	this._hexWidth = boundingInfo.maximum.z - boundingInfo.minimum.z;
